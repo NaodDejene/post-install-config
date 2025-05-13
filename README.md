@@ -138,5 +138,17 @@ Sev-C: 8 hours, Business Hours
   <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%"
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p><b>Step 8:</b> Configure Help Topics (For when users create a ticket)<br/>
+Admin Panel → Manage → Help Topics<br/>
+Create the following help topics:<br/>
+- Business Critical Outage<br/>
+- Personal Computer Issues<br/>
+- Equipment Request<br/>
+- Password Reset<br/>
+- Other
+</p>
+<br />
+
 
