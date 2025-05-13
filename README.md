@@ -28,50 +28,115 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
+<!-- Step 1 -->
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
 </p>
-<p><b>Step 1:</b> Log in to the osTicket admin panel using the credentials you created during installation. Navigate to the dashboard to begin configuration.</p>
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p><b>Step 1:</b> Configure Roles (for grouping permissions)<br/>
+Admin Panel → Agents → Roles<br/>
+Create Role: Supreme Admin
+</p>
 <br />
 
+<!-- Step 2 -->
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
 </p>
-<p><b>Step 2:</b> Delete the <code>/setup</code> directory from <code>C:\inetpub\wwwroot\osTicket</code>. This is a critical security step after installation is complete.</p>
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p><b>Step 2:</b> Configure Departments (Ticket Visibility)<br/>
+Admin Panel → Agents → Departments<br/>
+Create Department: SysAdmins
+</p>
 <br />
 
+<!-- Step 3 -->
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
 </p>
-<p><b>Step 3:</b> Locate the <code>ost-config.php</code> file in the <code>include</code> folder. Right-click the file, go to Properties, and set it to read-only to prevent accidental changes.</p>
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p><b>Step 3:</b> Configure Teams<br/>
+Admin Panel → Agents → Teams<br/>
+Team Name: Online Banking (Pull Agents from different Departments)
+</p>
 <br />
 
+<!-- Step 4 -->
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
 </p>
-<p><b>Step 4:</b> Go to <b>Admin Panel > Emails > System Emails</b> and configure your primary support email address (e.g., support@yourdomain.com). This email will send/receive ticket updates.</p>
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p><b>Step 4:</b> Allow anyone to create tickets<br/>
+Admin Panel → Settings → User Settings<br/>
+UNCHECK: Unregistered users can create tickets<br/>
+CHECK: Registration Required – Require login to create tickets
+</p>
 <br />
 
+<!-- Step 5 -->
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
 </p>
-<p><b>Step 5:</b> Navigate to <b>Admin Panel > Staff > Departments</b> and create key departments like IT Support, Billing, or Customer Service to help route incoming tickets appropriately.</p>
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p><b>Step 5:</b> Configure Agents (Workers)<br/>
+Admin Panel → Agents → Add New<br/>
+Create Agent: Jane (Dept: SysAdmins)<br/>
+Create Agent: John (Dept: Support)
+</p>
 <br />
 
+<!-- Step 6 -->
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
 </p>
-<p><b>Step 6:</b> Go to <b>Admin Panel > Manage > Help Topics</b> and create topics such as “Password Reset” or “Order Status” to streamline ticket categorization for users submitting tickets.</p>
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p><b>Step 6:</b> Configure Users (Customers)<br/>
+Agent Panel → Users → Add New<br/>
+Create User: Karen<br/>
+Create User: Ken
+</p>
 <br />
 
+<!-- Step 7 -->
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
 </p>
-<p><b>Step 7:</b> Add your staff by going to <b>Admin Panel > Staff > Agents</b>. Create agent accounts, assign them to departments, and define access roles (e.g., Admin, Staff).</p>
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+</p>
+<p><b>Step 7:</b> Configure SLA<br/>
+Admin Panel → Manage → SLA<br/>
+Sev-A: 1 hour, 24/7<br/>
+Sev-B: 4 hours, 24/7<br/>
+Sev-C: 8 hours, Business Hours
+</p>
 <br />
 
+<!-- Step 8 -->
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
 </p>
-<p><b>Step 8:</b> Under <b>Admin Panel > Settings > Tickets</b>, configure ticket options like auto-responses, SLA settings, ticket priorities, and visibility rules to optimize your workflow.</p>
-<br />
+<p>
+  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%"
+
