@@ -150,6 +150,3 @@ Create the following help topics:<br/>
 - Other
 </p>
 <br />
-
-
-
