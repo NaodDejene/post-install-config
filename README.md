@@ -30,10 +30,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <!-- Step 1 -->
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/wN7VM5W.png" height="80%" width="80%" alt="Step 1 Image 1"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/6QwSl3H.png" height="80%" width="80%" alt="Step 1 Image 2"/>
 </p>
 <p><b>Step 1:</b> Configure Roles (for grouping permissions)<br/>
 Admin Panel → Agents → Roles<br/>
@@ -43,10 +43,10 @@ Create Role: Supreme Admin
 
 <!-- Step 2 -->
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/m2hcKbx.png" height="80%" width="80%" alt="Step 2 Image 1"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/p0WrJwj.png" height="80%" width="80%" alt="Step 2 Image 2"/>
 </p>
 <p><b>Step 2:</b> Configure Departments (Ticket Visibility)<br/>
 Admin Panel → Agents → Departments<br/>
@@ -56,13 +56,13 @@ Create Department: SysAdmins
 
 <!-- Step 3 -->
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/aowZ2Ab.png" height="80%" width="80%" alt="Step 3 Image 1"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/RsNAeDB.png" height="80%" width="80%" alt="Step 3 Image 2"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/Y8hTaCj.png" height="80%" width="80%" alt="Step 3 Image 3"/>
 </p>
 <p><b>Step 3:</b> Configure Teams<br/>
 Admin Panel → Agents → Teams<br/>
@@ -72,10 +72,7 @@ Team Name: Online Banking (Pull Agents from different Departments)
 
 <!-- Step 4 -->
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
-</p>
-<p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/Or3ixIA.png" height="80%" width="80%" alt="Step 4 Image 1"/>
 </p>
 <p><b>Step 4:</b> Allow anyone to create tickets<br/>
 Admin Panel → Settings → User Settings<br/>
@@ -86,13 +83,13 @@ CHECK: Registration Required – Require login to create tickets
 
 <!-- Step 5 -->
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/Z4M6NYQ.png" height="80%" width="80%" alt="Step 5 Image 1"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/cE55C5R.png" height="80%" width="80%" alt="Step 5 Image 2"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/pMTlPZa.png" height="80%" width="80%" alt="Step 5 Image 3"/>
 </p>
 <p><b>Step 5:</b> Configure Agents (Workers)<br/>
 Admin Panel → Agents → Add New<br/>
@@ -103,13 +100,13 @@ Create Agent: John (Dept: Support)
 
 <!-- Step 6 -->
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/ppICdZT.png" height="80%" width="80%" alt="Step 6 Image 1"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/9Nk1a0k.png" height="80%" width="80%" alt="Step 6 Image 2"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/wYeDWXs.png" height="80%" width="80%" alt="Step 6 Image 3"/>
 </p>
 <p><b>Step 6:</b> Configure Users (Customers)<br/>
 Agent Panel → Users → Add New<br/>
@@ -120,10 +117,10 @@ Create User: Ken
 
 <!-- Step 7 -->
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/NrbpyMT.png" height="80%" width="80%" alt="Step 7 Image 1"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/GiTJePD.png" height="80%" width="80%" alt="Step 7 Image 2"/>
 </p>
 <p><b>Step 7:</b> Configure SLA<br/>
 Admin Panel → Manage → SLA<br/>
@@ -135,20 +132,18 @@ Sev-C: 8 hours, Business Hours
 
 <!-- Step 8 -->
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/fBVGeaW.png" height="80%" width="80%" alt="Step 8 Image 1"/>
 </p>
 <p>
-  <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Step Image"/>
+  <img src="https://i.imgur.com/0EyrNAb.png" height="80%" width="80%" alt="Step 8 Image 2"/>
+</p>
+<p>
+  <img src="https://i.imgur.com/lNUukbD.png" height="80%" width="80%" alt="Step 8 Image 3"/>
 </p>
 <p><b>Step 8:</b> Configure Help Topics (For when users create a ticket)<br/>
 Admin Panel → Manage → Help Topics<br/>
 Create the following help topics:<br/>
 - Business Critical Outage<br/>
-- Personal Computer Issues<br/>
-- Equipment Request<br/>
-- Password Reset<br/>
-- Other
-</p>
-<br />
+
 
 
