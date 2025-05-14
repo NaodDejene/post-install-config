@@ -144,6 +144,12 @@ Sev-C: 8 hours, Business Hours
 Admin Panel → Manage → Help Topics<br/>
 Create the following help topics:<br/>
 - Business Critical Outage<br/>
+- Personal Computer Issues<br/>
+- Equipment Request<br/>
+- Password Reset<br/>
+- Other
+</p>
+<br />
 
 
 
